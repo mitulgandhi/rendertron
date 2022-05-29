@@ -56,7 +56,7 @@ export class ConfigManager {
     height: 1000,
     reqHeaders: {},
     headers: {},
-    puppeteerArgs: ['--no-sandbox", "--flag-switches-begin", "--enable-webgl-draft-extensions", "--enable-features=SharedArrayBuffer", "--disable-features=AsmJsToWebAssembly", "--flag-switches-end"],
+    puppeteerArgs: ['--no-sandbox', '--flag-switches-begin', '--enable-webgl-draft-extensions', '--enable-features=SharedArrayBuffer', '--disable-features=AsmJsToWebAssembly', '--flag-switches-end'],
     renderOnly: [],
     closeBrowser: false,
     restrictedUrlPattern: null
